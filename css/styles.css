@@ -176,15 +176,15 @@ button {
    /*Boton bonito*/
 
   .datos{
-    margin-top: 70px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr) ;
-    grid-template-areas: 
+      padding-top: 70px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr) ;
+      grid-template-areas:
 
-    "caja1" "caja4" "caja7"
-    "caja2" "caja5" "caja8"
-    "caja3" "caja6" "caja9"
+      "caja1 caja4 caja7"
+      "caja2 caja5 caja8"
+      "caja3 caja6 caja9"
     ;
   }
 
