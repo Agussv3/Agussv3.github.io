@@ -191,42 +191,51 @@ button {
   .caja1{
     display: flex;
     justify-content: center;
+    grid-area:caja1;
   }
 
   .caja2{
     display: flex;
     justify-content: center;
+    grid-area: caja2;
   }
 
   .caja3{
     display: flex;
     justify-content: center;
+    grid-area: caja3;
   }
   .caja4{
     display: flex;
     justify-content: center;
+    grid-area: caja4;
   }
 
   .caja5{
     justify-content: center;
     align-items: center;
+    grid-area: caja5;
   }
 
   .caja6{
     text-align: center;
+    grid-area: caja6;
   }
 
   .caja7{
     text-align: center;
+    grid-area: caja7;
   }
 
   .caja8{
     
     text-align: center;
+    grid-area: caja8;
   }
     
   .caja9{
     text-align: center;
+    grid-area: caja9;
   }
   h2{
     font-size: 48px;
@@ -242,13 +251,14 @@ button {
     }
     .btn3{
       margin-left: 20px;
+
     }
     .datos{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(9, 1fr) ;
     grid-template-areas: 
     "caja1"
-    "caja1"
+    "caja2"
     "caja3"
     "caja4"
     "caja5"
@@ -257,5 +267,5 @@ button {
     "caja8"
     "caja9"
         ;
-    }
+        }
   }
