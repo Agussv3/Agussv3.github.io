@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@500&display=swap');
+
+/* esto es la primera pagima*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+body{
+    background-color: #CBC0C0;
+}
+
+.logowsp{
+  background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.logowsp img{
+    margin-right: 10px;
+    height: 25px;
+}
+.logowsp p{
+    color: #B88900;
+}
+
+.header{
+    background-color: #0D5231;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+}
+
+
+.header .logo{
+    cursor: pointer;
+}
+
+
+ .header .logo img{
+    height: 76px;
+    width: auto;
+    transition: all 0.3;
+ }
+ .header .logo img:hover{
+    transform: scale(1.2);
+ }
+
+ .header .nav-link{
+    list-style: none;
+ }
+ .header .nav-link li{
+    display: inline-block;
+    padding: 0 20px;
+ }
+
+.header .nav-link li:hover {
+    transform: scale(1.2);
+}
+
+ .header .nav-link a{
+   font-size: 700;
+   color: white;
+   text-decoration: none; 
+ }
+ 
+ .header .nav-link li a:hover{
+    color: orange;
+ }
+ 
+ .header .btn button{
+    font-weight: 700;
+    color: #272727;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+ }
+ .header .btn .btn2:hover{
+    background-color: aliceblue;
+    color: orange;
+    transform: scale(1.1);
+ }
+
+.main-inicio{
+    height: 750px;
+    background-image:url(../asset/inicio\ fondo.jpg);
+    background-size:90% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    padding: 15px;
+}
+
+.sbn{
+    color: white;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+
+.detalle{
+  color: #0D5231;
+  height: 50px;
+  background-color: #0D5231;;
+}
+.detalle2{
+  color: #272727;
+  background-color: #272727;
+  height: 55px;
+}
+/*Boton bonito*/
+
+button {
+    align-items: center;
+    background-image: linear-gradient(144deg,#FF9A76, #FF6363 50%,#FF1E62);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(255, 154, 118, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  
+  button:active,
+  button:hover {
+    outline: 0;
+  }
+  
+  button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  button:hover span {
+    background: none;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+  .btn3{
+    margin-left: 70px;
+  }
+
+   /*Boton bonito*/
+
+  .datos{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-areas: 
+
+    "caja1" "caja4" "caja7"
+    "caja2" "caja5" "caja8"
+    "caja3" "caja6" "caja9"
+    ;
+  }
+
+  .caja1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .caja2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .caja3{
+    display: flex;
+    justify-content: center;
+  }
+  .caja4{
+    display: flex;
+    justify-content: center;
+  }
+
+  .caja5{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja6{
+    text-align: center;
+  }
+
+  .caja7{
+    text-align: center;
+  }
+
+  .caja8{
+    
+    text-align: center;
+  }
+    
+  .caja9{
+    text-align: center;
+  }
+  h2{
+    font-size: 48px;
+    text-align: center;
+  }
+   @media screen and (max-width:900px ) {
+    .sbn{
+      color: white;
+      font-size: 60px;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 15px;
+      margin-top: 50px;
+    }
+    .btn3{
+      margin-left: 20px;
+    }
+    .datos{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr) ;
+    grid-template-areas: 
+    "caja1"
+    "caja1"
+    "caja3"
+    "caja4"
+    "caja5"
+    "caja6"
+    "caja7"
+    "caja8"
+    "caja9"
+        ;
+    }
+  }
