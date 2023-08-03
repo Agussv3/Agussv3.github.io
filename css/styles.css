@@ -31,66 +31,9 @@ body{
     color: #B88900;
 }
 
-.header{
-    background-color: #0D5231;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding: 5px 10%;
+.logomc{
+  height: 80px;
 }
-
-
-.header .logo{
-    cursor: pointer;
-}
-
-
- .header .logo img{
-    height: 76px;
-    width: auto;
-    transition: all 0.5s;
- }
- .header .logo img:hover{
-    transform: scale(1.2);
- }
-
- .header .nav-link{
-    list-style: none;
- }
- .header .nav-link li{
-    display: inline-block;
-    padding: 0 20px;
- }
-
-.header .nav-link li:hover {
-    transform: scale(1.2);
-}
-
- .header .nav-link a{
-   font-size: 700;
-   color: white;
-   text-decoration: none; 
- }
- 
- .header .nav-link li a:hover{
-    color: orange;
- }
- 
- .header .btn button{
-    font-weight: 700;
-    color: #272727;
-    padding: 9px 25px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition:  all 0.3s ease 0s;
- }
- .header .btn .btn2:hover{
-    background-color: aliceblue;
-    color: orange;
-    transform: scale(1.1);
- }
 
 .main-inicio{
     height: 750px;
