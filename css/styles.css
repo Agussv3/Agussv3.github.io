@@ -205,8 +205,31 @@ body{
   padding: 15px;
 }
 
+.sbn3{
+  color: white;
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 15px;
+  margin-top: 50px;
 
+}
+footer{
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+}
+.logof{
+  height: 110px;
+}
 
+.h3r{
+  color: white;
+  padding-right: 50px;
+}
+
+.pf{
+  color: white;
+}
 
 
 
@@ -254,5 +277,11 @@ body{
       margin-left: 15px;
       padding-top: 30px;
     }
+    footer{
+      display: inline-flex;
+    }
+  .h3r{
+    font-size: 23px;
+  }
   }
   
