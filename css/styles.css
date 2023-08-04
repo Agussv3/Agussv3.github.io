@@ -193,10 +193,36 @@ body{
     font-size: 48px;
     text-align: center;
   }
+  /*Pagina Aires*/
+
+.main-aires{
+  height: 750px;
+  background-image:url(../asset/GasAire.png);
+  background-size:80% ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+  /*Pagina Aires*/
    @media screen and (max-width:990px ) {
     .sbn{
       color: white;
-      font-size: 55px;
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 15px;
+      margin-top: 50px;
+    }
+    .sbn3{
+      color: white;
+      font-size: 40px;
       font-family: 'Poppins', sans-serif;
       margin-left: 15px;
       margin-top: 50px;

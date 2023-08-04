@@ -3,33 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <!--Favicon-->
     <link rel="shortcut icon" href="../asset/Logo.jpeg" type="image/x-icon">
+     <!--CssBootstrap-->
+     <link rel="stylesheet" href="../libreria/bootstrap/css/bootstrap.min.css">
+    <!--Css-->
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Aires</title>
 </head>
 <body>
     <div class="logowsp">
-        <img src="../asset/whats.png" alt="whats">
-        <p>+54 66666666</p>
+        <a href="https://web.whatsapp.com/" target="_blank"><img src="../asset/whats.png" alt="whats"></a>
+        <a href="https://www.google.com/gmail/about/" target="_blank"><img src="../asset/gmail.png" alt="gmail"></a>
     </div>
-    <header class="header">
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../asset/Logo.jpeg" alt="logo de la empresa" class="imagenmc">
-            </a>
-        </div>
-        <nav>
-            <ul class="nav-link">
-                <li><a href="../paginas/Aires.html">Aires</a></li>
-                <li><a href="../paginas/piletas.html">Piletas</a></li>
-                <li><a href="../paginas/Destapaciones.html">Destapaciones</a></li>
-                <li><a href="../paginas/plomeria.html">Plomeria</a></li>
-            </ul>
-        </nav>
-        <a href="../paginas/Contacto.html" class="btn"><button>Contacto</button></a>
-    </header>
-    <main class="main">
+    <header >
+        <!--NavBootstap-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div>
+                <a href="../index.html">
 
-    </main>
+                    <img src="../asset/Logo.jpeg" alt="" class="logomc">
+                    
+                </a>
+            </div>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Mc.Soluciones</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Aires.html">Aires</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mas
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./Destapaciones.html">Destapaciones</a></li>
+                      <li><a class="dropdown-item" href="./piletas.html">Piletas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./plomeria.html">Plomeria</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!--NavBootstap-->
+    </header>
+    <main class="main-aires">
+        <P class="sbn3">REPARACION,</P>
+        <p class="sbn3">MANTENIMIENTO</p>
+        <!--Boton libreria-->
+        <button class="btn3">
+            <span class="text">LLAMAR</span>
+          </button>
+        <!--Boton libreria-->
+        </main>
+        <!--NO se como hacer estos detalles, fue lo unico que se me ocurrio-->
+        <div class="detalle">
+            <p>a</p>
+        </div>
+        <div class="detalle2">
+            <p>a</p>
+        </div>
+        <!--Aca terminaron esos detallitos-->
+        <aside class="datos">
+            <div class="caja1">
+                <img src="../asset/Planos.png" alt="Planos">
+            </div>
+            <div class="caja4">
+                <img src="../asset/Instalaciones.png" alt="Pared">
+            </div>
+            <div class="caja7">
+                <img src="../asset/Arquitecto.png" alt="Arquitecto">
+            </div>
+            <div class="caja2">
+                <h2>Planificacion</h2>
+            </div>
+            <div class="caja5">
+                <h2>Instalacion</h2>
+            </div>
+            <div class="caja8">
+                <h2>Terminaciones</h2>
+            </div>
+            <div class="caja3">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae odio unde molestiae nemo corporis repudiandae excepturi a eaque fugit obcaecati!</p>
+            </div>
+            <div class="caja6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, est.</p>
+            </div>
+            <div class="caja9">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, eligendi?</p>
+            </div>
+        </aside>        
+    <footer>
+        
+    </footer>
+    <!--BootstrapJv-->
+    <script src="../libreria/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>
