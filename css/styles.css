@@ -24,10 +24,13 @@ body{
 }
 
 .logowsp img{
+    display: flex;
+    align-items: center;
     margin-right: 10px;
     height: 25px;
 }
 .logowsp p{
+    margin-top:20px;
     color: #B88900;
 }
 
@@ -53,6 +56,12 @@ body{
     margin-top: 70px;
 }
 
+.Qsomos{
+  color: white;
+  font-size: 50px;
+  margin-left: 35px;
+}
+
 .detalle{
   color: #0D5231;
   height: 50px;
@@ -65,7 +74,7 @@ body{
 }
 /*Boton bonito*/
 
-button {
+.btn3 {
     align-items: center;
     background-image: linear-gradient(144deg,#FF9A76, #FF6363 50%,#FF1E62);
     border: 0;
@@ -90,12 +99,12 @@ button {
     transition: all .3s;
   }
   
-  button:active,
-  button:hover {
+  .btn3:active,
+  .btn3:hover {
     outline: 0;
   }
   
-  button span {
+  .btn3 span {
     background-color: rgb(5, 6, 45);
     padding: 16px 24px;
     border-radius: 6px;
@@ -104,11 +113,11 @@ button {
     transition: 300ms;
   }
   
-  button:hover span {
+  .btn3:hover span {
     background: none;
   }
   
-  button:active {
+  .btn3:active {
     transform: scale(0.9);
   }
 
@@ -184,7 +193,7 @@ button {
     font-size: 48px;
     text-align: center;
   }
-   @media screen and (max-width:900px ) {
+   @media screen and (max-width:990px ) {
     .sbn{
       color: white;
       font-size: 55px;
@@ -211,4 +220,13 @@ button {
     "caja9"
         ;
         }
+    .logomc{
+      height: 1px;
+    }
+    .Qsomos{
+      font-size: 20px;
+      margin-left: 15px;
+      padding-top: 30px;
+    }
   }
+  
