@@ -213,25 +213,12 @@ body{
   margin-top: 50px;
 
 }
-footer{
-  background-color: #272727;
-  display: flex;
-  justify-content: space-between;
-}
+
 .logof{
-  height: 110px;
+  display: flex;
+  height: 100px;
+  
 }
-
-.h3r{
-  color: white;
-  padding-right: 50px;
-}
-
-.pf{
-  color: white;
-}
-
-
 
 
   /*Pagina Aires*/
@@ -277,11 +264,5 @@ footer{
       margin-left: 15px;
       padding-top: 30px;
     }
-    footer{
-      display: inline-flex;
-    }
-  .h3r{
-    font-size: 20px;
-  }
   }
   
