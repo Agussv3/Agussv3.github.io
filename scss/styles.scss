@@ -1,0 +1,421 @@
+$tipografia: 'calibri';
+$color-primario: #ffffff;
+$color-secundario: #000000;
+$alto-primario: 400px;
+$separacion: 5px;
+$pantalla1: flex ;
+$centrado: center ;
+$direccion1: column;
+$margen: auto;
+$margensup:100px;
+$radio: 4px;
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@500&display=swap');
+
+/* esto es la primera pagima*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+body{
+    background-color: #e9fcf3;
+}
+
+.logowsp{
+  background-color: #272727;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.logowsp img{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    height: 25px;
+}
+.logowsp p{
+    margin-top:20px;
+    color: #B88900;
+}
+
+.logomc{
+  height: 80px;
+}
+
+.main-inicio{
+    height: 750px;
+    background-image:url(../asset/inicio\ fondo.jpg);
+    background-size:90% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    padding: 15px;
+}
+
+.sbn{
+    color: white;
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+
+.Qsomos{
+  color: white;
+  font-size: 50px;
+  margin-left: 35px;
+}
+
+.detalle{
+  color: #0D5231;
+  height: 50px;
+  background-color: #0D5231;;
+}
+.detalle2{
+  color: #272727;
+  background-color: #272727;
+  height: 55px;
+}
+/*Boton bonito*/
+
+.btn3 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#FF9A76, #FF6363 50%,#FF1E62);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(255, 154, 118, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  
+  .btn3:active,
+  .btn3:hover {
+    outline: 0;
+  }
+  
+  .btn3 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .btn3:hover span {
+    background: none;
+  }
+  
+  .btn3:active {
+    transform: scale(0.9);
+  }
+
+  .btn3{
+    margin-left: 70px;
+  }
+
+   /*Boton bonito*/
+
+  .datos{
+      padding-top: 70px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr) ;
+      grid-template-areas:
+
+      "caja1 caja4 caja7"
+      "caja2 caja5 caja8"
+      "caja3 caja6 caja9"
+    ;
+  }
+
+  .caja1{
+    display: flex;
+    justify-content: center;
+    grid-area:caja1;
+  }
+
+  .caja2{
+    grid-area: caja2;
+  }
+
+  .caja3{
+    display: flex;
+    justify-content: center;
+    grid-area: caja3;
+  }
+  .caja4{
+    display: flex;
+    justify-content: center;
+    grid-area: caja4;
+  }
+
+  .caja5{
+    grid-area: caja5;
+  }
+
+  .caja6{
+    text-align: center;
+    grid-area: caja6;
+  }
+
+  .caja7{
+    text-align: center;
+    grid-area: caja7;
+  }
+
+  .caja8{
+    
+    text-align: center;
+    grid-area: caja8;
+  }
+    
+  .caja9{
+    text-align: center;
+    grid-area: caja9;
+  }
+  h2{
+    font-size: 48px;
+    text-align: center;
+  }
+
+
+
+  /*Pagina Aires*/
+
+.main-aires{
+  height: 750px;
+  background-image:url(../asset/GasAire.png);
+  background-size:80% ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  padding: 15px;
+}
+
+.sbn3{
+  color: white;
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 15px;
+  margin-top: 50px;
+
+}
+
+.logof{
+  display: flex;
+  height: 100px;
+  
+}
+
+
+  /*Pagina Aires*/
+
+
+  /*Pagina plomeria*/
+
+.main-plomeria{
+  height: 700px;
+  background-image:url(../asset/plomeria\ fondo\ 1.png);
+  background-size:80% ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  padding: 15px;
+}
+
+.sbn4{
+  color: black;
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+/*Pagina plomeria*/
+
+
+/*Pagina Piletas*/
+
+.main-piletas{
+  height: 700px;
+  background-image:url(../asset/pileta.jpg);
+  background-size:80% ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  padding: 15px;
+}
+
+.sbn5{
+  color: white;
+  font-size: 80px;
+}
+
+
+.contenedor{
+    display: $pantalla1;
+    justify-content: $centrado;
+    color: $color-secundario;
+}
+.formulario{
+    font-family: $tipografia;
+    background-color: #DBDBDB;
+    padding: $separacion;
+    width: $alto-primario;
+    flex-direction: $direccion1;
+    color: white;
+    
+}
+
+.entrada{
+    width: 100%;
+    padding: 10px;
+    background-color:$color-primario;
+    color:$color-secundario;
+    margin-bottom: $separacion;
+    font-family: $tipografia;
+    border: 2px solid #0D5231;
+}
+
+.movebtn{
+    display: flex;
+    justify-content: center ;
+}
+
+
+
+
+/*Boton bonito*/
+
+.btn4 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#FF9A76, #FF6363 50%,#FF1E62);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(255, 154, 118, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.btn4:active,
+.btn4:hover {
+  outline: 0;
+}
+
+.btn4 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.btn4:hover span {
+  background: none;
+}
+
+.btn4:active {
+  transform: scale(0.9);
+}
+
+.btn4{
+  margin-left: 0px;
+}
+
+ /*Boton bonito*/
+
+
+
+   @media screen and (max-width:990px ) {
+    .sbn{
+      color: white;
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 15px;
+      margin-top: 50px;
+    }
+    .sbn3{
+      color: white;
+      font-size: 36px;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 15px;
+      margin-top: 50px;
+    }
+    .btn3{
+      margin-left: 20px;
+
+    }
+    .datos{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 1fr) ;
+    grid-template-areas: 
+    "caja1"
+    "caja2"
+    "caja3"
+    "caja4"
+    "caja5"
+    "caja6"
+    "caja7"
+    "caja8"
+    "caja9"
+        ;
+        }
+    .logomc{
+      height: 1px;
+    }
+    .Qsomos{
+      font-size: 20px;
+      margin-left: 15px;
+      padding-top: 30px;
+    }
+    .sbn4{
+      font-size: 40px;
+    }
+    .sbn5{
+      font-size: 40px;
+    }
+    
+  }
