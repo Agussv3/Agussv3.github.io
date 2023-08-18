@@ -1,6 +1,6 @@
 $tipografia: 'calibri';
 $color-primario: #24303c;
-$color-secundario: #24303c;
+$color-secundario: #ffffff;
 $alto-primario: 400px;
 $separacion: 5px;
 $pantalla1: flex ;
@@ -97,7 +97,7 @@ body{
     border-radius: 8px;
     box-shadow: rgba(255, 154, 118, 0.2) 0 15px 30px -5px;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: $color-secundario;
     display: flex;
     font-family: Phantomsans, sans-serif;
     font-size: 18px;
@@ -221,7 +221,7 @@ body{
 }
 
 .sbn3{
-  color: white;
+  color: $color-secundario;
   font-size: 80px;
   font-family: 'Poppins', sans-serif;
   margin-left: 15px;
@@ -278,37 +278,40 @@ body{
   font-size: 80px;
 }
 
+//Scss
 
 .contenedor{
     display: $pantalla1;
     justify-content: $centrado;
-    color: white;
-}
-.formulario{
+    color: $color-secundario;
+  }
+  .formulario{
     font-family: $tipografia;
-    background-color: #24303c;
+    background-color: $color-primario;
     padding: $separacion;
     width: $alto-primario;
     flex-direction: $direccion1;
-    color: white;
+    color: $color-secundario;
     
-}
-
-.entrada{
+  }
+  
+  .entrada{
+    border-radius: 20px;
     width: 100%;
     padding: 10px;
     background-color:$color-primario;
-    color:white;
+    color:$color-secundario;
     margin-bottom: $separacion;
     font-family: $tipografia;
     border: 2px solid #1f53c5;
-}
-
+  }
+  
 .movebtn{
     display: flex;
     justify-content: center ;
 }
 
+//Scss
 
 
 

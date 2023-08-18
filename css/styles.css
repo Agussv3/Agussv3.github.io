@@ -81,7 +81,7 @@ body {
   border-radius: 8px;
   box-shadow: rgba(255, 154, 118, 0.2) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   font-family: Phantomsans, sans-serif;
   font-size: 18px;
@@ -197,7 +197,7 @@ h2 {
 }
 
 .sbn3 {
-  color: white;
+  color: #ffffff;
   font-size: 80px;
   font-family: "Poppins", sans-serif;
   margin-left: 15px;
@@ -208,7 +208,9 @@ h2 {
   display: flex;
   height: 100px;
 }
-
+.gmailpng{
+  width: 32px;
+}
 /*Pagina Aires*/
 /*Pagina plomeria*/
 .main-plomeria {
@@ -249,7 +251,7 @@ h2 {
 .contenedor {
   display: flex;
   justify-content: center;
-  color: white;
+  color: #ffffff;
 }
 
 .formulario {
@@ -258,14 +260,15 @@ h2 {
   padding: 5px;
   width: 400px;
   flex-direction: column;
-  color: white;
+  color: #ffffff;
 }
 
 .entrada {
+  border-radius: 20px;
   width: 100%;
   padding: 10px;
   background-color: #24303c;
-  color: white;
+  color: #ffffff;
   margin-bottom: 5px;
   font-family: "calibri";
   border: 2px solid #1f53c5;
@@ -274,6 +277,11 @@ h2 {
 .movebtn {
   display: flex;
   justify-content: center;
+}
+
+.divf{
+  display: flex;
+  justify-content: space-between;
 }
 
 /*Boton bonito*/
@@ -353,7 +361,7 @@ h2 {
     grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6" "caja7" "caja8" "caja9";
   }
   .logomc {
-    height: 1px;
+    height: 0px;
   }
   .Qsomos {
     font-size: 20px;
@@ -365,6 +373,9 @@ h2 {
   }
   .sbn5 {
     font-size: 40px;
+  }
+  .divf p{
+    font-size: 0px;
   }
 }
 
