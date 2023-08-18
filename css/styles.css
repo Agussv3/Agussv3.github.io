@@ -249,12 +249,12 @@ h2 {
 .contenedor {
   display: flex;
   justify-content: center;
-  color: #000000;
+  color: white;
 }
 
 .formulario {
   font-family: "calibri";
-  background-color: #DBDBDB;
+  background-color: #24303c;
   padding: 5px;
   width: 400px;
   flex-direction: column;
@@ -264,11 +264,11 @@ h2 {
 .entrada {
   width: 100%;
   padding: 10px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #24303c;
+  color: white;
   margin-bottom: 5px;
   font-family: "calibri";
-  border: 2px solid #0D5231;
+  border: 2px solid #1f53c5;
 }
 
 .movebtn {

@@ -1,6 +1,6 @@
 $tipografia: 'calibri';
-$color-primario: #ffffff;
-$color-secundario: #000000;
+$color-primario: #24303c;
+$color-secundario: #24303c;
 $alto-primario: 400px;
 $separacion: 5px;
 $pantalla1: flex ;
@@ -282,11 +282,11 @@ body{
 .contenedor{
     display: $pantalla1;
     justify-content: $centrado;
-    color: $color-secundario;
+    color: white;
 }
 .formulario{
     font-family: $tipografia;
-    background-color: #DBDBDB;
+    background-color: #24303c;
     padding: $separacion;
     width: $alto-primario;
     flex-direction: $direccion1;
@@ -298,10 +298,10 @@ body{
     width: 100%;
     padding: 10px;
     background-color:$color-primario;
-    color:$color-secundario;
+    color:white;
     margin-bottom: $separacion;
     font-family: $tipografia;
-    border: 2px solid #0D5231;
+    border: 2px solid #1f53c5;
 }
 
 .movebtn{
