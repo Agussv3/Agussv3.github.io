@@ -127,6 +127,7 @@ body {
 
 /*Boton bonito*/
 .datos {
+  
   padding-top: 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -141,6 +142,8 @@ body {
 }
 
 .caja2 {
+  display: flex;
+  justify-content: center;
   grid-area: caja2;
 }
 
@@ -255,7 +258,7 @@ h2 {
 }
 
 .formulario {
-  font-family: "calibri";
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   background-color: #24303c;
   padding: 5px;
   width: 400px;
@@ -281,8 +284,13 @@ h2 {
 
 .divf{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
+
+.marcow{
+  margin-right: 20px;
+}
+
 
 /*Boton bonito*/
 .btn4 {
