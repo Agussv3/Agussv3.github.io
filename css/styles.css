@@ -49,11 +49,31 @@ body {
 
 .sbn {
   color: white;
-  font-size: 100px;
+  font-size: 80px;
   font-family: "Poppins", sans-serif;
   margin-left: 35px;
   margin-top: 70px;
+
+  /*Animacion*/
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 16ch;
+  
+  animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+  overflow:hidden;
+  }
+  
+  @keyFrames typing {
+  
+  from { width: 0}
+  }
+  
+  @keyFrames blink {
+   50% { border-color: transparent}
 }
+
+
 
 .Qsomos {
   color: white;
@@ -205,6 +225,25 @@ h2 {
   font-family: "Poppins", sans-serif;
   margin-left: 15px;
   margin-top: 50px;
+
+
+    /*Animacion*/
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 16ch;
+    
+    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
 }
 
 .logof {
@@ -232,6 +271,24 @@ h2 {
   font-family: "Poppins", sans-serif;
   margin-left: 15px;
   margin-top: 30px;
+
+    /*Animacion*/
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 16ch;
+    
+    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
 }
 
 /*Pagina plomeria*/
@@ -249,6 +306,24 @@ h2 {
 .sbn5 {
   color: white;
   font-size: 80px;
+
+    /*Animacion*/
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 16ch;
+    
+    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
 }
 
 .contenedor {
@@ -342,13 +417,16 @@ h2 {
 
 .btn4 {
   margin-left: 0px;
+  margin-top: 10px;
 }
+
+
 
 /*Boton bonito*/
 @media screen and (max-width: 990px) {
   .sbn {
     color: white;
-    font-size: 50px;
+    font-size: 33px;
     font-family: "Poppins", sans-serif;
     margin-left: 15px;
     margin-top: 50px;
