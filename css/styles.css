@@ -13,26 +13,6 @@ body {
   background-color: #e9fcf3;
 }
 
-.logowsp {
-  background-color: #272727;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  padding-right: 15px;
-}
-
-.logowsp img {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-  height: 25px;
-}
-
-.logowsp p {
-  margin-top: 20px;
-  color: #B88900;
-}
-
 .logomc {
   height: 80px;
 }
@@ -75,7 +55,7 @@ body {
 
 
 
-.Qsomos {
+.qsomos {
   color: white;
   font-size: 50px;
   margin-left: 35px;
@@ -146,6 +126,11 @@ body {
 }
 
 /*Boton bonito*/
+
+.linkb{
+  text-decoration: none;
+}
+
 .datos {
   
   padding-top: 70px;
@@ -231,9 +216,9 @@ h2 {
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 16ch;
+    width: 13ch;
     
-    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(13), blink .5s infinite step-end alternate;
     overflow:hidden;
     }
     
@@ -246,14 +231,12 @@ h2 {
      50% { border-color: transparent}
 }
 
-.logof {
-  display: flex;
-  height: 100px;
-}
 .gmailpng{
   width: 32px;
 }
 /*Pagina Aires*/
+
+
 /*Pagina plomeria*/
 .main-plomeria {
   height: 700px;
@@ -276,9 +259,9 @@ h2 {
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 16ch;
+    width: 11ch;
     
-    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(11), blink .5s infinite step-end alternate;
     overflow:hidden;
     }
     
@@ -311,9 +294,44 @@ h2 {
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 16ch;
+    width: 14ch;
     
-    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    animation: typing 2s steps(14), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
+}
+/*pagina riego*/
+
+
+.main-riego {
+  height: 750px;
+  background-image: url(../asset/paul-moody--zbcx0Lvsfw-unsplash.jpg);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 15px;
+}
+
+.sbnr {
+  color: white;
+  font-size: 80px;
+
+    /*Animacion*/
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 21ch;
+    
+    animation: typing 2s steps(21), blink .5s infinite step-end alternate;
     overflow:hidden;
     }
     
@@ -326,6 +344,16 @@ h2 {
      50% { border-color: transparent}
 }
 
+.qsomos2{
+  color: white;
+  font-size: 50px;
+  margin-left: px;
+}
+
+
+
+
+/*pagina riego*/
 .contenedor {
   display: flex;
   justify-content: center;
@@ -364,6 +392,36 @@ h2 {
 
 .marcow{
   margin-right: 20px;
+}
+
+.piedepagina{
+  background-color: #474056;
+}
+
+
+.logof {
+  display: flex;
+  height: 90px;
+}
+
+.fotdiv{
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pf{
+  margin-right: 15px;
+}
+
+
+.divredes{
+  margin-left: 400px;
+  align-items: center;
+}
+
+.redesf{
+  height: 50px;
 }
 
 
@@ -449,7 +507,7 @@ h2 {
   .logomc {
     height: 0px;
   }
-  .Qsomos {
+  .qsomos {
     font-size: 20px;
     margin-left: 15px;
     padding-top: 30px;
@@ -463,6 +521,39 @@ h2 {
   .divf p{
     font-size: 0px;
   }
+  .sbnr{
+    font-size: 30px;
+  }
+  .formulario{
+    width: 100%;
+  }
+
+
+  .logof{
+    margin-top: 10px;
+  }
+
+
+
+  .fotdiv{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .divredes{
+   margin-left: 0px;
+   margin: 30px 0px 30px 0px; 
+  }
+
+  .redesf{
+    padding-left: 10px;
+    height: 30px;
+  }
+
+  
 }
 
 /*# sourceMappingURL=styles.css.map */

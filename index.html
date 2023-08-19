@@ -30,13 +30,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../paginas/Aires.html">Aires</a>
+                    <a class="nav-link active" aria-current="page" href="../paginas/aires.html">Aires</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../paginas/Contacto.html">Contacto</a>
+                    <a class="nav-link" href="./paginas/riego.html">Riego</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="../paginas/Contacto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="./paginas/riego.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Mas
                     </a>
                     <ul class="dropdown-menu">
@@ -58,13 +58,15 @@
     </header>
     <main class="main-inicio">
         <span class="sbn">¡SOBRE NOSOTROS!</span>
-        <p class="Qsomos">
+        <p class="qsomos">
             Somos una empresa destinada a la solución de problemas cotidianos, realizando diferentes tipos de rubro, buscando una solución a tus problemas del día a día.
         </p>
         <!--Boton libreria-->
-        <button class="btn3">
-            <span class="text">LLAMAR</span>
-          </button>
+          <a href="#contactos" class="linkb">
+            <button class="btn3">
+                <span class="text">LLAMAR</span>
+            </button>
+          </a>
         <!--Boton libreria-->
         </main>
         <!--NO se como hacer estos detalles, fue lo unico que se me ocurrio-->
@@ -106,13 +108,13 @@
         </aside>
         <br>
         <br>
-        <h2> Contáctanos </h2>
+        <h2 id="contactos"> Contáctanos </h2>
         <section class="contenedor">
           <form class="formulario">
             <input type="text"  id="nombre" placeholder=" Ingrese su Nombre" required class="entrada">
             <input type="text"  id="apellido" placeholder="Ingrese su Apellido" required class="entrada">
             <input type="email" id="email"  placeholder="Ingrese su Correo" required class="entrada">
-            <textarea cols="28" rows="5" placeholder="Ingrese su Consultas" class="entrada"></textarea>
+            <textarea cols="28" rows="5" placeholder="Ingrese su Consulta" class="entrada"></textarea>
             <div class="divf">
               <a href="https://web.whatsapp.com/" target="_blank"><img src="./asset/whats.png" alt="wsp logo" class="marcow"></a>
               <a href="https://www.google.com/gmail/about/" target="_blank"><img src="./asset/gmail.png" alt="" class="gmailpng"></a>
@@ -125,29 +127,20 @@
         <br>
         <br>
         <br>
-        <footer>
-      <div class="container-fluid">
-        
-          <div class="row p-1 bg-dark text-white">
-          
-          <div class="col-xs-12 col-md-6 col-lg-3">
-              <img src="./asset/Logo.jpeg" alt="" class="logof">
+        <footer class="piedepagina">
+          <div class="fotdiv">
+            <img src="./asset/Logo.jpeg" alt="logo pagina" class="logof">
+            <div class="divredes">
+              <img src="./asset/facebook.png" alt="facebook" class="redesf">
+              <img src="./asset/instagram.png" alt="instagram" class="redesf">
+            </div>
+            <p class="pf">
+              Derechos reservados:<br>
+              ©2023 Mc.Soluciones, Inc.<br>
+              Derechos y propiedad intelectual propiedad de la misma
+            </p>
           </div>
-          <div class="col-xs-12 col-md-6 col-lg-3">
-              <p class="h4">Derechos reservados:</p>
-              <p class="h6">©2023 Mc.Soluciones, Inc. <br> Derechos y propiedad intelectual propiedad de la misma</p>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-3">
-              <p class="h5">Contacto y Redes sociales</p>
-              <ul>
-                <!--No me pasaron las redes-->
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Twiter</li>
-                <li>Whatsapp</li>
-              </ul>       
-      </div>     
-    </footer>
+        </footer>
     <!--BootstrapJv-->
     <script src="./libreria/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
